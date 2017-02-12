@@ -96,6 +96,45 @@
 			path = QQYinyueUITests;
 			sourceTree = "<group>";
 		};
+		608200301E509A5900ED34F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				608200311E509A5900ED34F0 /* Learn */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		608200311E509A5900ED34F0 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				608200321E509A5900ED34F0 /* Controller */,
+				608200331E509A5900ED34F0 /* Model */,
+				608200341E509A5900ED34F0 /* View */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		608200321E509A5900ED34F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		608200331E509A5900ED34F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		608200341E509A5900ED34F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6082FFF11E50985900ED34F0 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +158,7 @@
 		6082FFFC1E50985900ED34F0 /* QQYinyue */ = {
 			isa = PBXGroup;
 			children = (
+				608200301E509A5900ED34F0 /* Classes */,
 				608200001E50985900ED34F0 /* AppDelegate.h */,
 				608200011E50985900ED34F0 /* AppDelegate.m */,
 				608200031E50985900ED34F0 /* ViewController.h */,
